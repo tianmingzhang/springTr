@@ -1,0 +1,14 @@
+[INFO][2019-02-17 20:46:00,500][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO][2019-02-17 20:46:00,565][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sun Feb 17 20:46:00 CST 2019]; root of context hierarchy
+[INFO][2019-02-17 20:46:00,592][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [smart-context.xml]
+[INFO][2019-02-17 20:46:00,831][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-02-17 20:46:01,383][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 880 ms
+[INFO][2019-02-17 20:46:01,409][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'smart': initialization started
+[INFO][2019-02-17 20:46:01,411][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'smart-servlet': startup date [Sun Feb 17 20:46:01 CST 2019]; parent: Root WebApplicationContext
+[INFO][2019-02-17 20:46:01,412][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from ServletContext resource [/WEB-INF/smart-servlet.xml]
+[INFO][2019-02-17 20:46:01,445][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO][2019-02-17 20:46:01,504][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/index.html] onto handler 'loginController'
+[INFO][2019-02-17 20:46:01,505][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/loginCheck] onto handler 'loginController'
+[INFO][2019-02-17 20:46:01,505][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/loginCheck.*] onto handler 'loginController'
+[INFO][2019-02-17 20:46:01,505][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/loginCheck/] onto handler 'loginController'
+[INFO][2019-02-17 20:46:01,613][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'smart': initialization completed in 204 ms

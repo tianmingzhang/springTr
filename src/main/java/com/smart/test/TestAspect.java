@@ -4,7 +4,7 @@ import org.aspectj.lang.annotation.Aspect;
 
 @Aspect
 public class TestAspect {
-    @AfterReturning("this(com.smart.test.Seller)")
+    @AfterReturning("execution( * com.smart.test.NaiveWaiter.*(..))")
     public void thisTest(){
         System.out.println("thisTest() executed!");
     }

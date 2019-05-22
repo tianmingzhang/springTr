@@ -21,9 +21,9 @@ public class JsonExercise {
     }
 
     @RequestMapping(value = "/handle11")
-    public String handle11(
+    public void handle11(
             @RequestParam(value = "userName", required = false) String userName) {
         System.out.println(userName);
-        return "success";
+       // return "success";
     }
 }

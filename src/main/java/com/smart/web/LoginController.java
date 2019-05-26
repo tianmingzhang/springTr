@@ -37,7 +37,7 @@ public class LoginController{
 			User user = userService.findUserByUserName(loginCommand
 					.getUserName());
 			user.setLastIp(request.getLocalAddr());
-			user.setLastVisit(new Date());
+			//user.setLastVisit(new Date());
 			userService.loginSuccess(request,user);
 			request.getSession().setAttribute("user", user);
 			System.out.println("1"+request.getSession().getServletContext());

@@ -11,14 +11,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class JsonExercise {
 
     @RequestMapping(value = "/handle41")
-    public String handle41( HttpEntity<User> body) {
-        System.out.println(body);
+    public String handle41(  HttpEntity<User>  body) {
+        System.out.println(body.getBody());
         return "success";
     }
 
     @RequestMapping(value = "/handle11")
     public String handle11(
-            @RequestParam(value = "userName", required = false) String userName) {
+            @RequestParam(value = "userName",required = false) String userName) {
         System.out.println(userName);
         return "success";
     }

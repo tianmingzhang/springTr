@@ -32,7 +32,7 @@ public class UserService {
 		LoginLog loginLog = new LoginLog();
 		loginLog.setUserId(user.getUserId());
 		loginLog.setIp(user.getLastIp());
-		loginLog.setLoginDate(user.getLastVisit());
+		//loginLog.setLoginDate(user.getLastVisit());
         userDao.updateLoginInfo(user);
         loginLogDao.insertLoginLog(loginLog);
 		System.out.println("2"+request.getSession().getServletContext());

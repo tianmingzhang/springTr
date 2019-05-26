@@ -14,7 +14,7 @@ public class User implements Serializable{
 
 	private String lastIp;
 
-	private Date lastVisit;
+	//private Date lastVisit;
 
 	public String getLastIp() {
 		return lastIp;
@@ -24,13 +24,13 @@ public class User implements Serializable{
 		this.lastIp = lastIp;
 	}
 
-	public Date getLastVisit() {
-		return lastVisit;
-	}
-
-	public void setLastVisit(Date lastVisit) {
-		this.lastVisit = lastVisit;
-	}
+//	public Date getLastVisit() {
+//		return lastVisit;
+//	}
+//
+//	public void setLastVisit(Date lastVisit) {
+//		this.lastVisit = lastVisit;
+//	}
 
 	public int getUserId() {
 		return userId;
